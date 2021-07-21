@@ -1,1 +1,1 @@
-# k8s-basic
+# kubernetes fundamental training labs
