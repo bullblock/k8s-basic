@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: configmap-pod
+spec:
+  containers: 
+  - name: configmap-pod
+    image: nginx
+    envFrom: 
+    - configMapRef: 
+        name: color-configmap-file
+

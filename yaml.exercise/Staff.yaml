@@ -1,0 +1,15 @@
+Employee: 
+  Name: Andy 
+  Gender: M 
+  Age: 45
+  Title: IT Operator
+  Organization: VMWare
+  Job Scope: 
+  - Implementation 
+  - Support
+  Team:  
+  - Name: John 
+    Role: IT Operator 
+  - Name: Janet
+    Role: IT Operator
+

@@ -1,0 +1,27 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webapp-2
+  labels:
+   env: webapp-2
+spec:
+  containers:
+  - name: webapp-2 
+    image: nginx:1.17.0
+    ports:
+    - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-nodeport-service
+spec:
+  type: NodePort
+  selector:
+    env: webapp-2
+  ports:
+  - nodePort: 30020
+    port: 80
+    targetPort: 80
+

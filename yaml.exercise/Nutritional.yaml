@@ -1,0 +1,12 @@
+Fruits:
+  - Apple:
+      Protein: 0.3g
+      Fat: 0.2g
+      Calories: 52
+  - Orange:
+      Protein: 0.9g
+      Fat: 0.1g
+      Calories: 47
+Meat: 
+ - Chicken: 
+

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webapp-dev
+  namespace: dev
+spec:
+  containers:
+  - name: webapp-dev
+    image: nginx
